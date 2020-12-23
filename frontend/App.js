@@ -15,12 +15,12 @@ const store = createStore(rootReducer, applyMiddleware(thunk))
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDZoUGmKCe4DkPw_G0-MtbZ1DN2Ooe_fbw",
-  authDomain: "bagheecha-366f8.firebaseapp.com",
-  projectId: "bagheecha-366f8",
-  storageBucket: "bagheecha-366f8.appspot.com",
-  messagingSenderId: "100882500052",
-  appId: "1:100882500052:web:1f0a497cb3b704d441ee41"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 if (firebase.apps.length === 0) {
